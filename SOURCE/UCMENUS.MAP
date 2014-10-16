@@ -1,0 +1,1330 @@
+
+ UCMENUS
+
+ Start         Length     Name                   Class
+ 0001:00000000 000014428H CODE32                 CODE 32-bit
+               at offset 00000000 09990H bytes from UCMenus.obj (UCMENUS.C)
+               at offset 00009990 00048H bytes from J:\IBMCPP\LIB\dde4mbs.lib (DLLINIT.C)
+               at offset 000099d8 003E0H bytes from J:\IBMCPP\LIB\dde4mbs.lib (EDCINIT.C)
+               at offset 00009db8 000E0H bytes from J:\IBMCPP\LIB\dde4mbs.lib (SETUPENV.C)
+               at offset 00009e98 0011CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (CTORDTOR.C)
+               at offset 00009fb4 001F0H bytes from J:\IBMCPP\LIB\dde4mbs.lib (EDCTERM.C)
+               at offset 0000a1a4 0041CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (MALLOC.C)
+               at offset 0000a5c0 0014CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FREE.C)
+               at offset 0000a70c 00018H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FREEWEAK.C)
+               at offset 0000a724 00480H bytes from J:\IBMCPP\LIB\dde4mbs.lib (HEAPMIN.C)
+               at offset 0000aba4 000DCH bytes from J:\IBMCPP\LIB\dde4mbs.lib (CALLOC.C)
+               at offset 0000ac80 00020H bytes from J:\IBMCPP\LIB\dde4mbs.lib (TERMINAT.C)
+               at offset 0000aca0 0081CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (N_EXCEPT.C)
+               at offset 0000b4bc 00068H bytes from J:\IBMCPP\LIB\dde4mbs.lib (N_EXCPIO.C)
+               at offset 0000b524 00148H bytes from J:\IBMCPP\LIB\dde4mbs.lib (N_EXCRIT.C)
+               at offset 0000b66c 0007CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (N_DUMPWK.C)
+               at offset 0000b6e8 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (fpreset.ASM)
+               at offset 0000b6f8 00014H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FCLWEAK.C)
+               at offset 0000b70c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (CWEAK.C)
+               at offset 0000b718 00077H bytes from J:\IBMCPP\LIB\dde4mbs.lib (n_excpta.ASM)
+               at offset 0000b790 000DCH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FREEFCB.C)
+               at offset 0000b86c 00328H bytes from J:\IBMCPP\LIB\dde4mbs.lib (BEGTHRD.C)
+               at offset 0000bb94 001A0H bytes from J:\IBMCPP\LIB\dde4mbs.lib (ENDTHRD.C)
+               at offset 0000bd34 000C0H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FASTSEM.C)
+               at offset 0000bdf4 000A9H bytes from J:\IBMCPP\LIB\dde4mbs.lib (fastsema.ASM)
+               at offset 0000bea0 0002CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (THREADID.C)
+               at offset 0000becc 000F8H bytes from J:\IBMCPP\LIB\dde4mbs.lib (TSGLOBAL.C)
+               at offset 0000bfc4 00024H bytes from J:\IBMCPP\LIB\dde4mbs.lib (edcmsg.ASM)
+               at offset 0000bfe8 00258H bytes from J:\IBMCPP\LIB\dde4mbs.lib (PRTEMSG.C)
+               at offset 0000c240 00058H bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRSTR.C)
+               at offset 0000c298 00080H bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRTOK.C)
+               at offset 0000c318 00054H bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRUPR.C)
+               at offset 0000c36c 0003BH bytes from J:\IBMCPP\LIB\dde4mbs.lib (strcspn.ASM)
+               at offset 0000c3a8 0006CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRDUP.C)
+               at offset 0000c414 00037H bytes from J:\IBMCPP\LIB\dde4mbs.lib (strpbrk.ASM)
+               at offset 0000c44c 0003CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (strspn.ASM)
+               at offset 0000c488 00130H bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRTOL.C)
+               at offset 0000c5b8 000FCH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRTOUL.C)
+               at offset 0000c6b4 0010CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (CTYPETBL.C)
+               at offset 0000c7c0 000E1H bytes from J:\IBMCPP\LIB\dde4mbs.lib (asciitld.ASM)
+               at offset 0000c8a4 000C4H bytes from J:\IBMCPP\LIB\dde4mbs.lib (asciitod.ASM)
+               at offset 0000c968 00560H bytes from J:\IBMCPP\LIB\dde4mbs.lib (ATOF.C)
+               at offset 0000cec8 000ACH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRNICMP.C)
+               at offset 0000cf74 00504H bytes from J:\IBMCPP\LIB\dde4mbs.lib (ATOLD.C)
+               at offset 0000d478 00018H bytes from J:\IBMCPP\LIB\dde4mbs.lib (ABS.C)
+               at offset 0000d490 00FFCH bytes from J:\IBMCPP\LIB\dde4mbs.lib (DOFMTO.C)
+               at offset 0000e48c 00028H bytes from J:\IBMCPP\LIB\dde4mbs.lib (WEAKFMT.C)
+               at offset 0000e4b4 0001CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (WEAKGET.C)
+               at offset 0000e4d0 00014H bytes from J:\IBMCPP\LIB\dde4mbs.lib (WEAKCPUT.C)
+               at offset 0000e4e4 00070H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FPRINTF.C)
+               at offset 0000e554 00068H bytes from J:\IBMCPP\LIB\dde4mbs.lib (SPRINTF.C)
+               at offset 0000e5bc 000D4H bytes from J:\IBMCPP\LIB\dde4mbs.lib (WCTOMB.C)
+               at offset 0000e690 000F0H bytes from J:\IBMCPP\LIB\dde4mbs.lib (BUFPRINT.C)
+               at offset 0000e780 01D54H bytes from J:\IBMCPP\LIB\dde4mbs.lib (GOSCAN.C)
+               at offset 000104d4 0004CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (SSCANF.C)
+               at offset 00010520 00284H bytes from J:\IBMCPP\LIB\dde4mbs.lib (CLOSSTRM.C)
+               at offset 000107a4 00050H bytes from J:\IBMCPP\LIB\dde4mbs.lib (WMEMFILE.C)
+               at offset 000107f4 0010CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FOPEN.C)
+               at offset 00010900 005A8H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FMPRS.C)
+               at offset 00010ea8 0007CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (INITBUF.C)
+               at offset 00010f24 001CCH bytes from J:\IBMCPP\LIB\dde4mbs.lib (INITFCB.C)
+               at offset 000110f0 00220H bytes from J:\IBMCPP\LIB\dde4mbs.lib (CONVERT.C)
+               at offset 00011310 000F8H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FCLOSEAL.C)
+               at offset 00011408 00108H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FCLOSE.C)
+               at offset 00011510 0015CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FFLUSH.C)
+               at offset 0001166c 00248H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FILLB.C)
+               at offset 000118b4 001B8H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FLUSH.C)
+               at offset 00011a6c 00318H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FLUSHB.C)
+               at offset 00011d84 003D0H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FREAD.C)
+               at offset 00012154 00688H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FSEEK.C)
+               at offset 000127dc 00270H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FWRITE.C)
+               at offset 00012a4c 001B0H bytes from J:\IBMCPP\LIB\dde4mbs.lib (GETCX.C)
+               at offset 00012bfc 00190H bytes from J:\IBMCPP\LIB\dde4mbs.lib (GETENV.C)
+               at offset 00012d8c 00006H bytes from J:\IBMCPP\LIB\dde4mbs.lib (ilog2.ASM)
+               at offset 00012d94 00054H bytes from J:\IBMCPP\LIB\dde4mbs.lib (INTERR.C)
+               at offset 00012de8 00063H bytes from J:\IBMCPP\LIB\dde4mbs.lib (longjmp.ASM)
+               at offset 00012e4c 000A4H bytes from J:\IBMCPP\LIB\dde4mbs.lib (LTOA.C)
+               at offset 00012ef0 000CCH bytes from J:\IBMCPP\LIB\dde4mbs.lib (NODDPRS.C)
+               at offset 00012fbc 00648H bytes from J:\IBMCPP\LIB\dde4mbs.lib (OPENSTRM.C)
+               at offset 00013604 00008H bytes from J:\IBMCPP\LIB\dde4mbs.lib (W_RAISE.C)
+               at offset 0001360c 0003AH bytes from J:\IBMCPP\LIB\dde4mbs.lib (setjmp.ASM)
+               at offset 00013648 00278H bytes from J:\IBMCPP\LIB\dde4mbs.lib (UREADBS.C)
+               at offset 000138c0 000B0H bytes from J:\IBMCPP\LIB\dde4mbs.lib (UUNGETC.C)
+               at offset 00013970 00044H bytes from J:\IBMCPP\LIB\dde4mbs.lib (UWRITE.C)
+               at offset 000139b4 00034H bytes from J:\IBMCPP\LIB\dde4mbs.lib (CRT_FD.C)
+               at offset 000139e8 00054H bytes from J:\IBMCPP\LIB\dde4mbs.lib (CHECKMEM.C)
+               at offset 00013a3c 001C4H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FULLPATH.C)
+               at offset 00013c00 000A4H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FREETHRD.C)
+               at offset 00013ca4 00012H bytes from J:\IBMCPP\LIB\dde4mbs.lib (bts.ASM)
+               at offset 00013cb8 0013CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (MBTOWC.C)
+               at offset 00013df4 00164H bytes from J:\IBMCPP\LIB\dde4mbs.lib (WCSTOMBS.C)
+               at offset 00013f58 001D8H bytes from J:\IBMCPP\LIB\dde4mbs.lib (TOINT.C)
+               at offset 00014130 00044H bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRCAT.C)
+               at offset 00014174 00030H bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRCHR.C)
+               at offset 000141a4 0002CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRCMP.C)
+               at offset 000141d0 0003CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRCPY.C)
+               at offset 0001420c 00048H bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRNCAT.C)
+               at offset 00014254 00024H bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRLEN.C)
+               at offset 00014278 00044H bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRNCPY.C)
+               at offset 000142bc 00030H bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRRCHR.C)
+               at offset 000142ec 0003CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (MEMSET.C)
+               at offset 00014328 00030H bytes from J:\IBMCPP\LIB\dde4mbs.lib (MEMCPY.C)
+               at offset 00014358 000A8H bytes from J:\IBMCPP\LIB\dde4mbs.lib (XREAD.C)
+               at offset 00014400 00014H bytes from J:\IBMCPP\LIB\dde4mbs.lib (EDCMXDEF.C)
+               at offset 00014414 00014H bytes from J:\IBMCPP\LIB\dde4mbs.lib (MATHERR.C)
+
+ 0001:00014428 000006B84H CODESTARTKEEP          CODE 32-bit
+               at offset 00000000 06B84H bytes from UCMenus.obj (UCMENUS.C)
+
+ 0001:0001AFAC 000001714H CODESTARTDROP          CODE 32-bit
+               at offset 00000000 01714H bytes from UCMenus.obj (UCMENUS.C)
+
+ 0001:0001C6C0 000000030H _MSGSEG32              CODE 32-bit
+               at offset 00000000 00030H bytes from J:\TOOLKT21\OS2LIB\os2386.lib (.\msgseg32.asm)
+
+ 0002:00000000 000000AB0H DATA32                 DATA 32-bit
+               at offset 00000000 00350H bytes from UCMenus.obj (UCMENUS.C)
+               at offset 00000350 00004H bytes from J:\IBMCPP\LIB\dde4mbs.lib (dllstub.ASM)
+               at offset 00000360 002C0H bytes from J:\IBMCPP\LIB\dde4mbs.lib (EDCINIT.C)
+               at offset 00000620 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (CTORDTOR.C)
+               at offset 00000630 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FREE.C)
+               at offset 00000640 00030H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FREEWEAK.C)
+               at offset 00000670 00020H bytes from J:\IBMCPP\LIB\dde4mbs.lib (HEAPMIN.C)
+               at offset 00000690 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (CALLOC.C)
+               at offset 000006a0 000B0H bytes from J:\IBMCPP\LIB\dde4mbs.lib (N_EXCEPT.C)
+               at offset 00000750 00002H bytes from J:\IBMCPP\LIB\dde4mbs.lib (fpreset.ASM)
+               at offset 00000760 000A0H bytes from J:\IBMCPP\LIB\dde4mbs.lib (BEGTHRD.C)
+               at offset 00000800 00030H bytes from J:\IBMCPP\LIB\dde4mbs.lib (ENDTHRD.C)
+               at offset 00000830 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (PRTEMSG.C)
+               at offset 00000840 00110H bytes from J:\IBMCPP\LIB\dde4mbs.lib (CTYPETBL.C)
+               at offset 00000950 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (DOFMTO.C)
+               at offset 00000960 00050H bytes from J:\IBMCPP\LIB\dde4mbs.lib (CLOSSTRM.C)
+               at offset 000009b0 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FOPEN.C)
+               at offset 000009c0 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FCLOSEAL.C)
+               at offset 000009d0 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FCLOSE.C)
+               at offset 000009e0 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FFLUSH.C)
+               at offset 000009f0 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FREAD.C)
+               at offset 00000a00 00020H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FWRITE.C)
+               at offset 00000a20 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (GETENV.C)
+               at offset 00000a30 00060H bytes from J:\IBMCPP\LIB\dde4mbs.lib (OPENSTRM.C)
+               at offset 00000a90 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (CRT_FD.C)
+               at offset 00000aa0 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FULLPATH.C)
+
+ 0002:00000AB0 000000000H CTOR_DTOR1             DATA 32-bit
+ 0002:00000AB0 000000000H CTOR_DTOR2             DATA 32-bit
+ 0002:00000AB0 000000000H CTOR_DTOR3             DATA 32-bit
+ 0002:00000AB0 000000850H CONST32                CONST 32-bit
+               at offset 00000000 00020H bytes from J:\IBMCPP\LIB\dde4mbs.lib (EDCINIT.C)
+               at offset 00000020 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (MALLOC.C)
+               at offset 00000030 00090H bytes from J:\IBMCPP\LIB\dde4mbs.lib (PRTEMSG.C)
+               at offset 000000c0 000C8H bytes from J:\IBMCPP\LIB\dde4mbs.lib (fltconst.ASM)
+               at offset 00000188 00592H bytes from J:\IBMCPP\LIB\dde4mbs.lib (powconst.ASM)
+               at offset 0000071c 0000AH bytes from J:\IBMCPP\LIB\dde4mbs.lib (asciitld.ASM)
+               at offset 00000728 0000AH bytes from J:\IBMCPP\LIB\dde4mbs.lib (asciitod.ASM)
+               at offset 00000740 00020H bytes from J:\IBMCPP\LIB\dde4mbs.lib (ATOF.C)
+               at offset 00000760 00020H bytes from J:\IBMCPP\LIB\dde4mbs.lib (ATOLD.C)
+               at offset 00000780 00040H bytes from J:\IBMCPP\LIB\dde4mbs.lib (DOFMTO.C)
+               at offset 000007c0 00020H bytes from J:\IBMCPP\LIB\dde4mbs.lib (GOSCAN.C)
+               at offset 000007e0 00030H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FMPRS.C)
+               at offset 00000810 00010H bytes from J:\IBMCPP\LIB\dde4mbs.lib (FSEEK.C)
+               at offset 00000820 00030H bytes from J:\IBMCPP\LIB\dde4mbs.lib (LTOA.C)
+
+ 0002:00001300 00000000CH EDC1                   EDC_CLASS 32-bit
+               at offset 00000000 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (n_excpta.ASM)
+
+ 0002:0000130C 000000450H EDC2                   EDC_CLASS 32-bit
+               at offset 00000000 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (EDCINIT.C)
+               at offset 0000000c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (SETUPENV.C)
+               at offset 00000018 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (EDCTERM.C)
+               at offset 00000024 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (MALLOC.C)
+               at offset 00000030 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FREE.C)
+               at offset 0000003c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (HEAPMIN.C)
+               at offset 00000048 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (CALLOC.C)
+               at offset 00000054 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (TERMINAT.C)
+               at offset 00000060 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (N_EXCEPT.C)
+               at offset 0000006c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (N_EXCRIT.C)
+               at offset 00000078 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (N_DUMPWK.C)
+               at offset 00000084 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (fpreset.ASM)
+               at offset 00000090 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FCLWEAK.C)
+               at offset 0000009c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FREEFCB.C)
+               at offset 000000a8 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (BEGTHRD.C)
+               at offset 000000b4 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (ENDTHRD.C)
+               at offset 000000c0 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FASTSEM.C)
+               at offset 000000cc 00018H bytes from J:\IBMCPP\LIB\dde4mbs.lib (fastsema.ASM)
+               at offset 000000e4 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (THREADID.C)
+               at offset 000000f0 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (TSGLOBAL.C)
+               at offset 000000fc 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (edcmsg.ASM)
+               at offset 00000108 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (PRTEMSG.C)
+               at offset 00000114 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRSTR.C)
+               at offset 00000120 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRTOK.C)
+               at offset 0000012c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRUPR.C)
+               at offset 00000138 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (strcspn.ASM)
+               at offset 00000144 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRDUP.C)
+               at offset 00000150 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (strpbrk.ASM)
+               at offset 0000015c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (strspn.ASM)
+               at offset 00000168 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRTOL.C)
+               at offset 00000174 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRTOUL.C)
+               at offset 00000180 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (CTYPETBL.C)
+               at offset 0000018c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (asciitld.ASM)
+               at offset 00000198 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (asciitod.ASM)
+               at offset 000001a4 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (ATOF.C)
+               at offset 000001b0 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRNICMP.C)
+               at offset 000001bc 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (ATOLD.C)
+               at offset 000001c8 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (ABS.C)
+               at offset 000001d4 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (DOFMTO.C)
+               at offset 000001e0 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (WEAKFMT.C)
+               at offset 000001ec 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (WEAKGET.C)
+               at offset 000001f8 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (WEAKCPUT.C)
+               at offset 00000204 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FPRINTF.C)
+               at offset 00000210 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (SPRINTF.C)
+               at offset 0000021c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (WCTOMB.C)
+               at offset 00000228 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (BUFPRINT.C)
+               at offset 00000234 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (GOSCAN.C)
+               at offset 00000240 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (SSCANF.C)
+               at offset 0000024c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (CLOSSTRM.C)
+               at offset 00000258 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FOPEN.C)
+               at offset 00000264 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FMPRS.C)
+               at offset 00000270 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (INITBUF.C)
+               at offset 0000027c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (INITFCB.C)
+               at offset 00000288 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FCLOSEAL.C)
+               at offset 00000294 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FCLOSE.C)
+               at offset 000002a0 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FFLUSH.C)
+               at offset 000002ac 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FILLB.C)
+               at offset 000002b8 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FLUSH.C)
+               at offset 000002c4 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FLUSHB.C)
+               at offset 000002d0 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FREAD.C)
+               at offset 000002dc 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FSEEK.C)
+               at offset 000002e8 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FWRITE.C)
+               at offset 000002f4 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (GETCX.C)
+               at offset 00000300 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (GETENV.C)
+               at offset 0000030c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (INTERR.C)
+               at offset 00000318 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (longjmp.ASM)
+               at offset 00000324 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (LTOA.C)
+               at offset 00000330 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (NODDPRS.C)
+               at offset 0000033c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (OPENSTRM.C)
+               at offset 00000348 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (setjmp.ASM)
+               at offset 00000354 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (UUNGETC.C)
+               at offset 00000360 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (UWRITE.C)
+               at offset 0000036c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (CHECKMEM.C)
+               at offset 00000378 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FULLPATH.C)
+               at offset 00000384 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (FREETHRD.C)
+               at offset 00000390 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (bts.ASM)
+               at offset 0000039c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (MBTOWC.C)
+               at offset 000003a8 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (WCSTOMBS.C)
+               at offset 000003b4 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (TOINT.C)
+               at offset 000003c0 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRCAT.C)
+               at offset 000003cc 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRCHR.C)
+               at offset 000003d8 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRCMP.C)
+               at offset 000003e4 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRCPY.C)
+               at offset 000003f0 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRNCAT.C)
+               at offset 000003fc 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRLEN.C)
+               at offset 00000408 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRNCPY.C)
+               at offset 00000414 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (STRRCHR.C)
+               at offset 00000420 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (MEMSET.C)
+               at offset 0000042c 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (MEMCPY.C)
+               at offset 00000438 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (EDCMXDEF.C)
+               at offset 00000444 0000CH bytes from J:\IBMCPP\LIB\dde4mbs.lib (MATHERR.C)
+
+ 0002:0000175C 000000004H EDC3                   EDC_CLASS 32-bit
+               at offset 00000000 00004H bytes from J:\IBMCPP\LIB\dde4mbs.lib (n_excpta.ASM)
+
+ 0002:00001760 000000000H BSS32                  BSS 32-bit
+ 0002:00001760 0000007F0H c_common               BSS 32-bit
+
+ Origin   Group
+ 0000:0   FLAT
+ 0002:0   DGROUP
+
+ Address       Export                  Alias
+
+ 0001:0000963C UCMenuAlloc             UCMenuAlloc
+ 0001:00000118 UCMenuCreateFromHMenu   UCMenuCreateFromHMenu
+ 0001:00000000 UCMenuCreateFromResource  UCMenuCreateFromResource
+ 0001:0001AFAC UCMenuCreateFromTemplate  UCMenuCreateFromTemplate
+ 0001:000097D0 UCMenuFree              UCMenuFree
+ 0001:00001304 UCMenuFreeMenuData      UCMenuFreeMenuData
+ 0001:000017CC UCMenuGetActionID       UCMenuGetActionID
+ 0001:00009314 UCMenuGetVersion        UCMenuGetVersion
+ 0001:00001710 UCMenuIdFromCoord       UCMenuIdFromCoord
+ 0001:000096F0 UCMenuItemDup           UCMenuItemDup
+ 0001:0000966C UCMenuItemFree          UCMenuItemFree
+ 0001:0001B148 UCMenuLoadBitmap        UCMenuLoadBitmap
+ 0001:00005EB8 UCMenuLoadDefault       UCMenuLoadDefault
+ 0001:00000DA0 UCMenuLoadStyle         UCMenuLoadStyle
+ 0001:000010C0 UCMenuLoadStyleIni      UCMenuLoadStyleIni
+ 0001:000009E0 UCMenuLoadTemplate      UCMenuLoadTemplate
+ 0001:00000B5C UCMenuLoadTemplateIni   UCMenuLoadTemplateIni
+ 0001:00000200 UCMenuMakeTemplate      UCMenuMakeTemplate
+ 0001:0000601C UCMenuNew               UCMenuNew
+ 0001:000091BC UCMenuResourceBuffetDlg  UCMenuResourceBuffetDlg
+ 0001:00000BF8 UCMenuSaveStyle         UCMenuSaveStyle
+ 0001:00000F38 UCMenuSaveStyleIni      UCMenuSaveStyleIni
+ 0001:00000920 UCMenuSaveTemplate      UCMenuSaveTemplate
+ 0001:00000AC0 UCMenuSaveTemplateIni   UCMenuSaveTemplateIni
+ 0001:000019B0 UCMenuSetActionAttr     UCMenuSetActionAttr
+ 0001:00009654 UCMenuStrdup            UCMenuStrdup
+ 0001:00009268 UCMenuTemplateBuffetDlg  UCMenuTemplateBuffetDlg
+
+  Address         Publics by Name
+
+ 0002:00001F30       @BSSATOF.C
+ 0002:00001770       @BSSATOLD.C
+ 0002:000017E4       @BSSEDCINIT.C
+ 0002:00001810       @BSSFULLPATH.C
+ 0002:00001760       @BSSGOSCAN.C
+ 0002:0000191C       @BSSH:\SOURCE\UCMV210\SOURCE\UCMENUS.C
+ 0002:00001804       @BSSN_EXCEPT.C
+ 0002:00001800       @BSSPRTEMSG.C
+ 0001:0000D478       abs
+ 0001:000078F8       AddAccelItem
+ 0001:0000CEA0       atof
+ 0001:00007AD4       BitmapFileDlgProc
+ 0001:0001939C       BubbleWndProc
+ 0001:0000ABA4       calloc
+ 0001:00014C4C       CreateUCMenu
+ 0000:00000000  Imp  DevCloseDC           (PMGPI.604)
+ 0000:00000000  Imp  DevOpenDC            (PMGPI.610)
+ 0000:00000000  Imp  DevQueryCaps         (PMGPI.606)
+ 0001:0001C6D2       Dos32GetMessage
+ 0001:0001C6D2       DOS32GETMESSAGE
+ 0000:00000000  Imp  DOS32IQUERYMESSAGECP (MSG.8)
+ 0000:00000000  Imp  DOS32TRUEGETMESSAGE  (MSG.6)
+ 0000:00000000  Imp  DosAllocMem          (DOSCALLS.299)
+ 0000:00000000  Imp  DosAllocSharedMem    (DOSCALLS.300)
+ 0000:00000000  Imp  DosClose             (DOSCALLS.257)
+ 0000:00000000  Imp  DosCloseEventSem     (DOSCALLS.326)
+ 0000:00000000  Imp  DosCloseMutexSem     (DOSCALLS.333)
+ 0000:00000000  Imp  DosCreateEventSem    (DOSCALLS.324)
+ 0000:00000000  Imp  DosCreateMutexSem    (DOSCALLS.331)
+ 0000:00000000  Imp  DosCreateThread      (DOSCALLS.311)
+ 0000:00000000  Imp  DosExecPgm           (DOSCALLS.283)
+ 0000:00000000  Imp  DosExit              (DOSCALLS.234)
+ 0000:00000000  Imp  DosForceDelete       (DOSCALLS.110)
+ 0000:00000000  Imp  DosFreeMem           (DOSCALLS.304)
+ 0000:00000000  Imp  DosGetInfoBlocks     (DOSCALLS.312)
+ 0001:0001C6D2       DOSGETMESSAGE
+ 0001:0001C6D2       DosGetMessage
+ 0000:00000000  Imp  DosGiveSharedMem     (DOSCALLS.303)
+ 0000:00000000  Imp  DosOpen              (DOSCALLS.273)
+ 0000:00000000  Imp  DOSPOSTEVENTSEM      (DOSCALLS.328)
+ 0000:00000000  Imp  DosQueryCurrentDir   (DOSCALLS.274)
+ 0000:00000000  Imp  DosQueryCurrentDisk  (DOSCALLS.275)
+ 0000:00000000  Imp  DosQueryDBCSEnv      (NLS.6)
+ 0000:00000000  Imp  DosQueryFileInfo     (DOSCALLS.279)
+ 0000:00000000  Imp  DosQueryHType        (DOSCALLS.224)
+ 0000:00000000  Imp  DosQueryModuleHandle (DOSCALLS.319)
+ 0000:00000000  Imp  DosQueryPathInfo     (DOSCALLS.223)
+ 0000:00000000  Imp  DosQuerySysInfo      (DOSCALLS.348)
+ 0000:00000000  Imp  DosRaiseException    (DOSCALLS.356)
+ 0000:00000000  Imp  DosRead              (DOSCALLS.281)
+ 0000:00000000  Imp  DOSRELEASEMUTEXSEM   (DOSCALLS.335)
+ 0000:00000000  Imp  DOSREQUESTMUTEXSEM   (DOSCALLS.334)
+ 0000:00000000  Imp  DOSRESETEVENTSEM     (DOSCALLS.327)
+ 0000:00000000  Imp  DosSearchPath        (DOSCALLS.228)
+ 0000:00000000  Imp  DosSetExceptionHandler (DOSCALLS.354)
+ 0000:00000000  Imp  DosSetFilePtr        (DOSCALLS.256)
+ 0000:00000000  Imp  DosSetFileSize       (DOSCALLS.272)
+ 0000:00000000  Imp  DosSetRelMaxFH       (DOSCALLS.382)
+ 0000:00000000  Imp  DosSetSignalExceptionFocus (DOSCALLS.378)
+ 0000:00000000  Imp  DosSubAllocMem       (DOSCALLS.345)
+ 0000:00000000  Imp  DosSubSetMem         (DOSCALLS.344)
+ 0000:00000000  Imp  DosSubUnsetMem       (DOSCALLS.347)
+ 0000:00000000  Imp  DosUnsetExceptionHandler (DOSCALLS.355)
+ 0000:00000000  Imp  DosUnwindException   (DOSCALLS.357)
+ 0000:00000000  Imp  DOSWAITEVENTSEM      (DOSCALLS.329)
+ 0000:00000000  Imp  DosWaitThread        (DOSCALLS.349)
+ 0000:00000000  Imp  DosWrite             (DOSCALLS.282)
+ 0000:00000000  Imp  DrgAccessDraginfo    (PMDRAG.32)
+ 0000:00000000  Imp  DrgAddStrHandle      (PMDRAG.33)
+ 0000:00000000  Imp  DrgAllocDraginfo     (PMDRAG.34)
+ 0000:00000000  Imp  DrgAllocDragtransfer (PMDRAG.35)
+ 0000:00000000  Imp  DrgDeleteDraginfoStrHandles (PMDRAG.36)
+ 0000:00000000  Imp  DrgDeleteStrHandle   (PMDRAG.37)
+ 0000:00000000  Imp  DrgDrag              (PMDRAG.38)
+ 0000:00000000  Imp  DrgFreeDraginfo      (PMDRAG.39)
+ 0000:00000000  Imp  DrgFreeDragtransfer  (PMDRAG.40)
+ 0000:00000000  Imp  DrgGetPS             (PMDRAG.41)
+ 0000:00000000  Imp  DrgQueryDragitemPtr  (PMDRAG.46)
+ 0000:00000000  Imp  DrgQueryStrName      (PMDRAG.49)
+ 0000:00000000  Imp  DrgQueryStrNameLen   (PMDRAG.50)
+ 0000:00000000  Imp  DrgReleasePS         (PMDRAG.53)
+ 0000:00000000  Imp  DrgSendTransferMsg   (PMDRAG.54)
+ 0000:00000000  Imp  DrgSetDragitem       (PMDRAG.57)
+ 0000:00000000  Imp  DrgVerifyRMF         (PMDRAG.59)
+ 0000:00000000  Imp  DrgVerifyType        (PMDRAG.61)
+ 0001:00011408       fclose
+ 0001:00011510       fflush
+ 0001:000107F4       fopen
+ 0001:00011FB4       fread
+ 0001:0000A67C       free
+ 0001:000124F8       fseek
+ 0001:000127DC       fwrite
+ 0001:00012BFC       getenv
+ 0001:0001AE34       GetMaxItemSize
+ 0000:00000000  Imp  GpiBeginArea         (PMGPI.352)
+ 0000:00000000  Imp  GpiBox               (PMGPI.356)
+ 0000:00000000  Imp  GpiCreateBitmap      (PMGPI.598)
+ 0000:00000000  Imp  GpiCreateLogColorTable (PMGPI.592)
+ 0000:00000000  Imp  GpiCreatePS          (PMGPI.369)
+ 0000:00000000  Imp  GpiDeleteBitmap      (PMGPI.371)
+ 0000:00000000  Imp  GpiDestroyPS         (PMGPI.379)
+ 0000:00000000  Imp  GpiEndArea           (PMGPI.385)
+ 0000:00000000  Imp  GpiLine              (PMGPI.398)
+ 0000:00000000  Imp  GpiLoadBitmap        (PMGPI.399)
+ 0000:00000000  Imp  GpiMove              (PMGPI.404)
+ 0000:00000000  Imp  GpiPolygons          (PMGPI.650)
+ 0000:00000000  Imp  GpiQueryBitmapBits   (PMGPI.599)
+ 0000:00000000  Imp  GpiQueryBitmapInfoHeader (PMGPI.601)
+ 0000:00000000  Imp  GpiQueryBitmapParameters (PMGPI.573)
+ 0000:00000000  Imp  GpiQueryColordata    (PMGPI.438)
+ 0000:00000000  Imp  GpiQueryDevice       (PMGPI.444)
+ 0000:00000000  Imp  GpiQueryNearestColor (PMGPI.469)
+ 0000:00000000  Imp  GpiSetBitmap         (PMGPI.506)
+ 0000:00000000  Imp  GpiSetBitmapBits     (PMGPI.602)
+ 0000:00000000  Imp  GpiSetColor          (PMGPI.517)
+ 0000:00000000  Imp  GpiSetPattern        (PMGPI.541)
+ 0000:00000000  Imp  GpiWCBitBlt          (PMGPI.557)
+ 0001:00018760       HideWndProc
+ 0001:00004454       InitializeStyleDlg
+ 0001:00012DE8       longjmp
+ 0001:0000A514       malloc
+ 0001:00013CB8       mbtowc
+ 0001:00014328       memcpy
+ 0001:000142EC       memset
+ 0001:00019EAC       MenuWndProc
+ 0001:000097E4       MyStrdup
+ 0001:0000980C       nlsgetmessage
+ 0000:00000000  Imp  PrfCloseProfile      (PMSHAPI.103)
+ 0000:00000000  Imp  PrfOpenProfile       (PMSHAPI.102)
+ 0000:00000000  Imp  PrfQueryProfileData  (PMSHAPI.117)
+ 0000:00000000  Imp  PrfQueryProfileSize  (PMSHAPI.101)
+ 0000:00000000  Imp  PrfWriteProfileData  (PMSHAPI.118)
+ 0001:000079CC       RemoveAccelItem
+ 0001:00007E74       ResBmpDlgProc
+ 0001:0001360C       setjmp
+ 0001:00008E9C       ShredderWndProc
+ 0001:0001C6C0       sig32
+ 0002:00000368       stderr
+ 0002:00000360       stdin
+ 0002:00000364       stdout
+ 0001:00014130       strcat
+ 0001:00014174       strchr
+ 0001:000141A4       strcmp
+ 0001:000141D0       strcpy
+ 0001:0000C36C       strcspn
+ 0001:0000C3A8       strdup
+ 0001:00014254       strlen
+ 0001:0001420C       strncat
+ 0001:00014278       strncpy
+ 0001:0000CEC8       strnicmp
+ 0001:0000C414       strpbrk
+ 0001:000142BC       strrchr
+ 0001:0000C44C       strspn
+ 0001:0000C240       strstr
+ 0001:0000C998       strtod
+ 0001:0000C298       strtok
+ 0001:0000C488       strtol
+ 0001:0000CF74       strtold
+ 0001:0000C5B8       strtoul
+ 0001:0000C318       strupr
+ 0001:000095D8       SubMemStrdup
+ 0001:00018EFC       SubmenuWndProc
+ 0001:000078B4       TranslateAccel
+ 0001:000156DC       UCAdjacentItemBlank
+ 0001:00008304       UCMDlgProc
+ 0001:0001475C       UCMenu3DFrame
+ 0001:0000963C       UCMenuAlloc
+ 0001:00014970       UCMenuCalcBmpPos
+ 0001:000147A4       UCMenuCalcItemSize
+ 0001:00014B84       UCMenuCalcTextSize
+ 0001:0001486C       UCMenuCalcUnscaledItemSize
+ 0001:00015284       UCMenuCheckScrolling
+ 0001:00001A34       UCMenuContextMenu
+ 0001:0001B0DC       UCMenuCreate
+ 0001:00007C00       UCMenuCreateBmpDlgProc
+ 0001:00005AC4       UCMenuCreateBmpFile
+ 0001:00001D00       UCMenuCreateBubbleWindow
+ 0001:00000118       UCMenuCreateFromHMenu
+ 0001:00000000       UCMenuCreateFromResource
+ 0001:0001AFAC       UCMenuCreateFromTemplate
+ 0001:0000432C       UCMenuDisplayHelp
+ 0001:00006800       UCMenuDragOver
+ 0001:0001A7F4       UCMenuDrgDrpMsg
+ 0001:00006C6C       UCMenuDrop
+ 0001:00005958       UCMenuEditBmpFile
+ 0001:00005704       UCMenuEditBmpFileT2
+ 0001:00005644       UCMenuExecuteProgram
+ 0001:000097D0       UCMenuFree
+ 0001:00001304       UCMenuFreeMenuData
+ 0001:000017CC       UCMenuGetActionID
+ 0001:00001830       UCMenuGetActionID2
+ 0001:0001C600       UCMenuGetBitmapFullName
+ 0001:0001C2A0       UCMenuGetBitmapPath
+ 0001:000077F8       UCMenuGetExePath
+ 0001:00005030       UCMenuGetNewID
+ 0001:00009314       UCMenuGetVersion
+ 0001:00001710       UCMenuIdFromCoord
+ 0001:00006204       UCMenuInitDrag
+ 0001:000096F0       UCMenuItemDup
+ 0001:0000966C       UCMenuItemFree
+ 0001:0001B148       UCMenuLoadBitmap
+ 0001:00005EB8       UCMenuLoadDefault
+ 0001:0001C028       UCMenuLoadItemBmp
+ 0001:0001B8AC       UCMenuLoadMenuData
+ 0001:00009324       UCMenuLoadResBmp
+ 0001:00000DA0       UCMenuLoadStyle
+ 0001:000010C0       UCMenuLoadStyleIni
+ 0001:000009E0       UCMenuLoadTemplate
+ 0001:00000B5C       UCMenuLoadTemplateIni
+ 0001:00000200       UCMenuMakeTemplate
+ 0001:00000494       UCMenuMakeTemplate2
+ 0001:00003738       UCMenuNBP0DlgProc
+ 0001:00003890       UCMenuNBP0Initialize
+ 0001:000051F4       UCMenuNBP0OK
+ 0001:00002490       UCMenuNBP1DlgProc
+ 0001:00002CC4       UCMenuNBP1Initialize
+ 0001:0000392C       UCMenuNBP1OK
+ 0001:00005E20       UCMenuNBP1UpdateBmp
+ 0001:00003100       UCMenuNBP2DlgProc
+ 0001:00003614       UCMenuNBP2Initialize
+ 0001:00003CFC       UCMenuNBP2OK
+ 0001:0000601C       UCMenuNew
+ 0001:00001218       UCMenuNotifAll
+ 0001:000076C4       UCMenuPresParamChanged
+ 0001:00001D98       UCMenuReloadAllBitmaps
+ 0001:000066C0       UCMenuRemoveDropEmphasis
+ 0001:000060EC       UCMenuReplaceMenu
+ 0001:000091BC       UCMenuResourceBuffetDlg
+ 0001:00000BF8       UCMenuSaveStyle
+ 0001:00000F38       UCMenuSaveStyleIni
+ 0001:00000920       UCMenuSaveTemplate
+ 0001:00000AC0       UCMenuSaveTemplateIni
+ 0001:0001B868       UCMenuSelectColor
+ 0001:000019B0       UCMenuSetActionAttr
+ 0001:00014428       UCMenuSetBmpBgColor
+ 0001:00001E70       UCMenuSettingsDlgProc
+ 0001:0000155C       UCMenuSize
+ 0001:00009654       UCMenuStrdup
+ 0001:00004A10       UCMenuStyleDlgOK
+ 0001:00003E8C       UCMenuStyleDlgProc
+ 0001:00009268       UCMenuTemplateBuffetDlg
+ 0001:000002A8       UCMenuTemplateLen
+ 0001:0000500C       UCMenuUnselectAll
+ 0001:00004CD0       UCMenuUpdateMenu
+ 0001:00015778       UCMenuWndProc
+ 0001:0000985C       UCMString2Int
+ 0001:00013DF4       wcstombs
+ 0001:0000E5BC       wctomb
+ 0000:00000000  Imp  WinBeginPaint        (PMWIN.703)
+ 0000:00000000  Imp  WinCalcFrameRect     (PMWIN.704)
+ 0000:00000000  Imp  WinCreateHelpInstance (HELPMGR.51)
+ 0000:00000000  Imp  WinCreateMenu        (PMWIN.907)
+ 0000:00000000  Imp  WinCreateMsgQueue    (PMWIN.716)
+ 0000:00000000  Imp  WinCreateWindow      (PMWIN.909)
+ 0000:00000000  Imp  WinDefDlgProc        (PMWIN.910)
+ 0000:00000000  Imp  WinDefFileDlgProc    (PMCTLS.5)
+ 0000:00000000  Imp  WinDefWindowProc     (PMWIN.911)
+ 0000:00000000  Imp  WinDestroyHelpInstance (HELPMGR.52)
+ 0000:00000000  Imp  WinDestroyMsgQueue   (PMWIN.726)
+ 0000:00000000  Imp  WinDestroyWindow     (PMWIN.728)
+ 0000:00000000  Imp  WinDismissDlg        (PMWIN.729)
+ 0000:00000000  Imp  WinDispatchMsg       (PMWIN.912)
+ 0000:00000000  Imp  WinDlgBox            (PMWIN.923)
+ 0000:00000000  Imp  WinDrawBitmap        (PMWIN.730)
+ 0000:00000000  Imp  WinDrawBorder        (PMWIN.731)
+ 0000:00000000  Imp  WinDrawText          (PMWIN.913)
+ 0000:00000000  Imp  WinEnableWindow      (PMWIN.735)
+ 0000:00000000  Imp  WinEndPaint          (PMWIN.738)
+ 0000:00000000  Imp  WinFileDlg           (PMCTLS.4)
+ 0000:00000000  Imp  WinFillRect          (PMWIN.743)
+ 0000:00000000  Imp  WinGetKeyState       (PMWIN.752)
+ 0000:00000000  Imp  WinGetLastError      (PMWIN.753)
+ 0000:00000000  Imp  WinGetPhysKeyState   (PMWIN.758)
+ 0000:00000000  Imp  WinGetPS             (PMWIN.757)
+ 0000:00000000  Imp  WinGetSysBitmap      (PMWIN.760)
+ 0000:00000000  Imp  WinInitialize        (PMWIN.763)
+ 0000:00000000  Imp  WinInvalidateRect    (PMWIN.765)
+ 0000:00000000  Imp  WinIsChild           (PMWIN.768)
+ 0000:00000000  Imp  WinIsWindow          (PMWIN.772)
+ 0000:00000000  Imp  WinIsWindowShowing   (PMWIN.774)
+ 0000:00000000  Imp  WinLoadDlg           (PMWIN.924)
+ 0000:00000000  Imp  WinLoadMenu          (PMWIN.778)
+ 0000:00000000  Imp  WinLoadString        (PMWIN.781)
+ 0000:00000000  Imp  WinMapDlgPoints      (PMWIN.787)
+ 0000:00000000  Imp  WinMapWindowPoints   (PMWIN.788)
+ 0000:00000000  Imp  WinMessageBox        (PMWIN.789)
+ 0000:00000000  Imp  WinPeekMsg           (PMWIN.918)
+ 0000:00000000  Imp  WinPopupMenu         (PMWIN.937)
+ 0000:00000000  Imp  WinPostMsg           (PMWIN.919)
+ 0000:00000000  Imp  WinQueryActiveWindow (PMWIN.799)
+ 0000:00000000  Imp  WinQueryAnchorBlock  (PMWIN.800)
+ 0000:00000000  Imp  WinQueryClassName    (PMWIN.805)
+ 0000:00000000  Imp  WinQueryDlgItemShort (PMWIN.814)
+ 0000:00000000  Imp  WinQueryDlgItemText  (PMWIN.815)
+ 0000:00000000  Imp  WinQueryDlgItemTextLength (PMWIN.816)
+ 0000:00000000  Imp  WinQueryPointerPos   (PMWIN.823)
+ 0000:00000000  Imp  WinQueryPresParam    (PMWIN.939)
+ 0000:00000000  Imp  WinQuerySysValue     (PMWIN.829)
+ 0000:00000000  Imp  WinQueryWindow       (PMWIN.834)
+ 0000:00000000  Imp  WinQueryWindowPos    (PMWIN.837)
+ 0000:00000000  Imp  WinQueryWindowProcess (PMWIN.838)
+ 0000:00000000  Imp  WinQueryWindowPtr    (PMWIN.839)
+ 0000:00000000  Imp  WinQueryWindowRect   (PMWIN.840)
+ 0000:00000000  Imp  WinQueryWindowULong  (PMWIN.843)
+ 0000:00000000  Imp  WinQueryWindowUShort (PMWIN.844)
+ 0000:00000000  Imp  WinRegisterClass     (PMWIN.926)
+ 0000:00000000  Imp  WinReleasePS         (PMWIN.848)
+ 0000:00000000  Imp  WinRemovePresParam   (PMWIN.940)
+ 0000:00000000  Imp  WinSendDlgItemMsg    (PMWIN.903)
+ 0000:00000000  Imp  WinSendMsg           (PMWIN.920)
+ 0000:00000000  Imp  WinSetActiveWindow   (PMWIN.851)
+ 0000:00000000  Imp  WinSetDlgItemShort   (PMWIN.858)
+ 0000:00000000  Imp  WinSetDlgItemText    (PMWIN.859)
+ 0000:00000000  Imp  WinSetFocus          (PMWIN.860)
+ 0000:00000000  Imp  WinSetOwner          (PMWIN.864)
+ 0000:00000000  Imp  WinSetParent         (PMWIN.865)
+ 0000:00000000  Imp  WinSetPresParam      (PMWIN.938)
+ 0000:00000000  Imp  WinSetWindowPos      (PMWIN.875)
+ 0000:00000000  Imp  WinSetWindowPtr      (PMWIN.876)
+ 0000:00000000  Imp  WinSetWindowULong    (PMWIN.878)
+ 0000:00000000  Imp  WinSetWindowUShort   (PMWIN.879)
+ 0000:00000000  Imp  WinShowWindow        (PMWIN.883)
+ 0000:00000000  Imp  WinStartTimer        (PMWIN.884)
+ 0000:00000000  Imp  WinStopTimer         (PMWIN.885)
+ 0000:00000000  Imp  WinSubclassWindow    (PMWIN.929)
+ 0000:00000000  Imp  WinTerminate         (PMWIN.888)
+ 0000:00000000  Imp  WinWindowFromID      (PMWIN.899)
+ 0000:00000000  Imp  WinWindowFromPoint   (PMWIN.900)
+ 0001:0000C7C0       _asciitld
+ 0001:0000C8A4       _asciitod
+ 0001:0000C9C8       _atofieee
+ 0001:0000D454       _atold
+ 0001:0000BB20       _beginthread
+ 0001:00013CA4       _bit_test_set
+ 0001:0000E690       _bufprint
+ 0001:0000B73C       _callback_opt_sys
+ 0001:000139E8       _CheckIfMem
+ 0001:0000BDA0       _CloseSem
+ 0001:00010520       _CloseStream
+ 0001:000110F0       _convert
+ 0001:0000BD34       _CreateSem
+ 0001:0000B524       _critlib_except
+ 0001:0000B86C       _CrtGetLocalData
+ 0001:0000BAE0       _CrtInitThread
+ 0001:00009A28       _CRT_init
+ 0002:00000A90       _crt_msg_handle
+ 0001:00009FB4       _CRT_term
+ 0002:00000840       _ctable
+ 0002:00001918       _ctype
+ 0002:00000944       _ctypeModule
+ 0002:00000370       _daylight
+ 0002:00000B80       _DBL_MAX
+ 0002:00000B78       _DBL_MIN
+ 0002:00000350       _dllentry
+ 0001:00009990       _DLL_InitTerm
+ 0002:00000BB8       _dneginfi
+ 0002:00000BA8       _dnegqnan
+ 0002:00000BB0       _dnegsnan
+ 0002:00000BA0       _dposinfi
+ 0002:00000B90       _dposqnan
+ 0002:00000B98       _dpossnan
+ 0002:00001760       _edata
+ 0001:0000BFC4       _edcGetMessage
+ 0002:000017D4       _edcinit_fin
+ 0002:00001F50       _end
+ 0001:0000BB94       _endthread
+ 0002:00001F28       _environ
+ 0001:0000BF98       _errno
+ 0001:0000B718       _Exception
+ 0001:0000B3C0       _exception_dllinit
+ 0001:0000B3F0       _exception_procinit
+ 0001:0000ACA0       _EXE_Exception
+ 0001:00011310       _fcloseall
+ 0001:0000B6F8       _fcloseall_weak
+ 0001:0001166C       _fillb
+ 0002:00001300       _firsteib
+ 0001:000118B4       _Flush
+ 0001:00011A6C       _flushb
+ 0001:00010900       _Fmprs
+ 0002:00000BD4       _fneginfi
+ 0002:00000BCC       _fnegqnan
+ 0002:00000BD0       _fnegsnan
+ 0002:000009C0       _fopenused
+ 0002:00000BC8       _fposinfi
+ 0002:00000BC0       _fposqnan
+ 0002:00000BC4       _fpossnan
+ 0001:0000B6E8       _fpreset
+ 0001:0000E4E4       _fprintfieee
+ 0001:0000E524       _fprintf_ansi
+ 0001:0000C6B4       _freeCtype
+ 0001:0000B714       _freeCtype_weak
+ 0001:0000B790       _FreeFCB
+ 0001:0000B70C       _freeLocale_weak
+ 0001:00013C00       _freeThreadStorage
+ 0001:00013A3C       _fullpath
+ 0001:00012A4C       _getcx
+ 0001:0000B424       _get_eib
+ 0001:0000B754       _get_seglim
+ 0002:00001790       _have_freed
+ 0001:0000AAF0       _heapmin
+ 0001:0000A808       _heapmin_int
+ 0002:00000B88       _HUGE_VAL
+ 0001:00012D8C       _ilog2
+ 0002:00000B70       _infinity
+ 0001:00010EA8       _InitBuf
+ 0001:00010F24       _InitFCB
+ 0001:0000C6D0       _init_ctype
+ 0001:0000B710       _init_ctype_weak
+ 0001:0000B4BC       _input_excpt
+ 0001:00012D94       _internal_err
+ 0002:0000175C       _lasteib
+ 0002:00000BE2       _LDBL_MAX
+ 0002:00000BD8       _LDBL_MIN
+ 0002:00000C28       _ldneginfi
+ 0002:00000C14       _ldnegqnan
+ 0002:00000C1E       _ldnegsnan
+ 0002:00000C0A       _ldposinfi
+ 0002:00000BF6       _ldposqnan
+ 0002:00000C00       _ldpossnan
+ 0002:00000BEC       _LHUGE_VAL
+ 0001:0000AE48       _Lib_excpt
+ 0002:00001F40       _locale_initialized
+ 0001:00012E4C       _ltoa
+ 0001:00014414       _matherr
+ 0002:000006A0       _matherr_ptr
+ 0001:00014400       _Math_Exception_Def
+ 0002:000017D8       _memory_sem
+ 0001:0000C03C       _MesgServ
+ 0001:0000B480       _mig_eib_store
+ 0001:00012EF0       _noddprs
+ 0001:0001335C       _OpenStream
+ 0002:00001F2C       _osmajor
+ 0002:00001F2D       _osminor
+ 0002:00000378       _osmode
+ 0002:00001794       _pBucketArr
+ 0002:0000036C       _PGLOBAL_PTR
+ 0002:00000C38       _pospow1
+ 0002:00000EB8       _pospow2
+ 0001:0000BFE8       _PrintErrMsg
+ 0001:00013648       _readbSync
+ 0001:0000ACE4       _recreate_exception
+ 0001:0000B748       _Regen_exception
+ 0001:0000BE84       _ReleaseSem
+ 0001:0000BDF4       _RequestSem
+ 0001:00009DB8       _setupenv
+ 0001:000139B4       _set_crt_msg_handle
+ 0001:0000A1A4       _split_chunk
+ 0001:0000E554       _sprintfieee
+ 0001:0000E590       _sprintf_ansi
+ 0001:000104D4       _sscanfieee
+ 0001:000104F4       _sscanf_ansi
+ 0001:0000C968       _strtodieee
+ 0001:0000AC80       _terminate
+ 0002:00001F44       _TerminateAndDumpSem
+ 0001:0000B730       _Test_and_reset
+ 0001:000099D8       _test_handle
+ 0002:00000374       _timezone
+ 0002:000017F4       _tmemory_sem
+ 0001:00013F58       _toint
+ 0002:00001F20       _tzname
+ 0001:000138C0       _ungetc
+ 0001:00013970       _uwrite
+ 0001:0000E4D0       _wcputs
+ 0001:0000A70C       _Weak_FreeListEntry
+ 0001:000107BC       _wfgetposMem
+ 0001:0000E48C       _wfloatfmt
+ 0001:000107AC       _wfsetposMem
+ 0001:0000E4BC       _wgetche
+ 0001:000107EC       _wOpenMemory
+ 0001:000107A8       _wreadbSyncMem
+ 0001:000107E8       _wRemoveMem
+ 0001:000107D0       _wrewindMem
+ 0001:000107B4       _wSeekMem
+ 0001:000107D4       _wtellMem
+ 0001:0000E4B4       _wungetch
+ 0001:000107A4       _wuwriteMem
+ 0001:00013604       _w_raise
+ 0001:0000B66C       _w_Terminate_and_dump
+ 0001:00014358       _XDosRead
+ 0001:0000B4A0       __Async_exception_flag
+ 0001:0000BF48       __broken_time_ptr
+ 0002:00000380       __char_set_type
+ 0001:0000BFA8       __cppstore
+ 0002:00000620       __ctdtused
+ 0002:00001F1C       __ctordtorCurrent
+ 0002:00000AB0       __ctordtorEnd
+ 0001:00009ED0       __ctordtorInit
+ 0002:00000AB0       __ctordtorStart
+ 0001:00009E98       __ctordtorTerm
+ 0001:0000BF38       __cvt_buf_ptr
+ 0002:00001914       __c_local_ctype
+ 0002:0000037C       __decimal_point
+ 0001:0000D9D8       __dofmto
+ 0001:0000BF88       __doserrno
+ 0001:0000BF78       __dttm_ptr
+ 0001:0000AFB4       __Exception
+ 0001:0000BF58       __flags
+ 0001:0000A5C0       __free
+ 0001:00010204       __goscan
+ 0001:0000BF18       __internal_buf_ptr
+ 0001:0000BF28       __lcvt_buf_ptr
+ 0001:0000A29C       __malloc
+ 0001:0000BF08       __perror_msg_ptr
+ 0001:0000BECC       __random_seed
+ 0001:0000B490       __Saved_return_address
+ 0001:0000BF68       __strerror_msg_ptr
+ 0001:0000BEE8       __strtok_pos
+ 0001:0000BEF8       __tempname_ptr
+ 0001:0000BEA0       __threadid
+ 0001:0000BEDC       __version
+
+  Address         Publics by Value
+
+ 0000:00000000  Imp  WinQueryDlgItemShort (PMWIN.814)
+ 0000:00000000  Imp  WinQueryWindowULong  (PMWIN.843)
+ 0000:00000000  Imp  DosQueryCurrentDisk  (DOSCALLS.275)
+ 0000:00000000  Imp  DosClose             (DOSCALLS.257)
+ 0000:00000000  Imp  WinQueryActiveWindow (PMWIN.799)
+ 0000:00000000  Imp  DosWrite             (DOSCALLS.282)
+ 0000:00000000  Imp  WinQueryPresParam    (PMWIN.939)
+ 0000:00000000  Imp  DosCreateEventSem    (DOSCALLS.324)
+ 0000:00000000  Imp  WinQueryWindowUShort (PMWIN.844)
+ 0000:00000000  Imp  DosRaiseException    (DOSCALLS.356)
+ 0000:00000000  Imp  WinQuerySysValue     (PMWIN.829)
+ 0000:00000000  Imp  WinQueryWindowProcess (PMWIN.838)
+ 0000:00000000  Imp  WinDestroyWindow     (PMWIN.728)
+ 0000:00000000  Imp  GpiQueryNearestColor (PMGPI.469)
+ 0000:00000000  Imp  GpiCreateLogColorTable (PMGPI.592)
+ 0000:00000000  Imp  WinCreateHelpInstance (HELPMGR.51)
+ 0000:00000000  Imp  WinSetDlgItemText    (PMWIN.859)
+ 0000:00000000  Imp  DosCreateMutexSem    (DOSCALLS.331)
+ 0000:00000000  Imp  DosCloseMutexSem     (DOSCALLS.333)
+ 0000:00000000  Imp  WinQueryDlgItemText  (PMWIN.815)
+ 0000:00000000  Imp  WinSubclassWindow    (PMWIN.929)
+ 0000:00000000  Imp  WinCreateMsgQueue    (PMWIN.716)
+ 0000:00000000  Imp  DosAllocSharedMem    (DOSCALLS.300)
+ 0000:00000000  Imp  DosSetExceptionHandler (DOSCALLS.354)
+ 0000:00000000  Imp  WinSendDlgItemMsg    (PMWIN.903)
+ 0000:00000000  Imp  GpiQueryColordata    (PMGPI.438)
+ 0000:00000000  Imp  WinSetWindowPtr      (PMWIN.876)
+ 0000:00000000  Imp  WinPostMsg           (PMWIN.919)
+ 0000:00000000  Imp  DosQuerySysInfo      (DOSCALLS.348)
+ 0000:00000000  Imp  WinQueryClassName    (PMWIN.805)
+ 0000:00000000  Imp  GpiCreatePS          (PMGPI.369)
+ 0000:00000000  Imp  WinDefWindowProc     (PMWIN.911)
+ 0000:00000000  Imp  WinDestroyHelpInstance (HELPMGR.52)
+ 0000:00000000  Imp  WinSetWindowPos      (PMWIN.875)
+ 0000:00000000  Imp  GpiBeginArea         (PMGPI.352)
+ 0000:00000000  Imp  DOS32IQUERYMESSAGECP (MSG.8)
+ 0000:00000000  Imp  GpiWCBitBlt          (PMGPI.557)
+ 0000:00000000  Imp  GpiSetBitmap         (PMGPI.506)
+ 0000:00000000  Imp  WinDefFileDlgProc    (PMCTLS.5)
+ 0000:00000000  Imp  WinSetWindowULong    (PMWIN.878)
+ 0000:00000000  Imp  WinLoadMenu          (PMWIN.778)
+ 0000:00000000  Imp  WinQueryWindowPos    (PMWIN.837)
+ 0000:00000000  Imp  GpiSetColor          (PMGPI.517)
+ 0000:00000000  Imp  DosQueryPathInfo     (DOSCALLS.223)
+ 0000:00000000  Imp  DosQueryModuleHandle (DOSCALLS.319)
+ 0000:00000000  Imp  DrgReleasePS         (PMDRAG.53)
+ 0000:00000000  Imp  WinFillRect          (PMWIN.743)
+ 0000:00000000  Imp  DosAllocMem          (DOSCALLS.299)
+ 0000:00000000  Imp  DrgAccessDraginfo    (PMDRAG.32)
+ 0000:00000000  Imp  WinQueryWindowPtr    (PMWIN.839)
+ 0000:00000000  Imp  PrfQueryProfileSize  (PMSHAPI.101)
+ 0000:00000000  Imp  DevCloseDC           (PMGPI.604)
+ 0000:00000000  Imp  WinEndPaint          (PMWIN.738)
+ 0000:00000000  Imp  WinSetFocus          (PMWIN.860)
+ 0000:00000000  Imp  WinReleasePS         (PMWIN.848)
+ 0000:00000000  Imp  DosCloseEventSem     (DOSCALLS.326)
+ 0000:00000000  Imp  DOSPOSTEVENTSEM      (DOSCALLS.328)
+ 0000:00000000  Imp  WinInvalidateRect    (PMWIN.765)
+ 0000:00000000  Imp  DosQueryFileInfo     (DOSCALLS.279)
+ 0000:00000000  Imp  WinSetOwner          (PMWIN.864)
+ 0000:00000000  Imp  DrgVerifyRMF         (PMDRAG.59)
+ 0000:00000000  Imp  DrgQueryDragitemPtr  (PMDRAG.46)
+ 0000:00000000  Imp  WinRegisterClass     (PMWIN.926)
+ 0000:00000000  Imp  DrgSendTransferMsg   (PMDRAG.54)
+ 0000:00000000  Imp  DrgDeleteStrHandle   (PMDRAG.37)
+ 0000:00000000  Imp  DrgDrag              (PMDRAG.38)
+ 0000:00000000  Imp  WinIsWindow          (PMWIN.772)
+ 0000:00000000  Imp  WinSetPresParam      (PMWIN.938)
+ 0000:00000000  Imp  DrgDeleteDraginfoStrHandles (PMDRAG.36)
+ 0000:00000000  Imp  WinStopTimer         (PMWIN.885)
+ 0000:00000000  Imp  DosSubSetMem         (DOSCALLS.344)
+ 0000:00000000  Imp  GpiPolygons          (PMGPI.650)
+ 0000:00000000  Imp  WinGetLastError      (PMWIN.753)
+ 0000:00000000  Imp  WinTerminate         (PMWIN.888)
+ 0000:00000000  Imp  DOSWAITEVENTSEM      (DOSCALLS.329)
+ 0000:00000000  Imp  DevQueryCaps         (PMGPI.606)
+ 0000:00000000  Imp  WinPeekMsg           (PMWIN.918)
+ 0000:00000000  Imp  WinDrawText          (PMWIN.913)
+ 0000:00000000  Imp  WinSetParent         (PMWIN.865)
+ 0000:00000000  Imp  DOSRESETEVENTSEM     (DOSCALLS.327)
+ 0000:00000000  Imp  PrfWriteProfileData  (PMSHAPI.118)
+ 0000:00000000  Imp  GpiLine              (PMGPI.398)
+ 0000:00000000  Imp  WinCreateMenu        (PMWIN.907)
+ 0000:00000000  Imp  DosExecPgm           (DOSCALLS.283)
+ 0000:00000000  Imp  DosFreeMem           (DOSCALLS.304)
+ 0000:00000000  Imp  PrfQueryProfileData  (PMSHAPI.117)
+ 0000:00000000  Imp  GpiLoadBitmap        (PMGPI.399)
+ 0000:00000000  Imp  WinPopupMenu         (PMWIN.937)
+ 0000:00000000  Imp  WinBeginPaint        (PMWIN.703)
+ 0000:00000000  Imp  DosRead              (DOSCALLS.281)
+ 0000:00000000  Imp  WinSendMsg           (PMWIN.920)
+ 0000:00000000  Imp  GpiDestroyPS         (PMGPI.379)
+ 0000:00000000  Imp  WinLoadString        (PMWIN.781)
+ 0000:00000000  Imp  GpiQueryBitmapBits   (PMGPI.599)
+ 0000:00000000  Imp  WinMapDlgPoints      (PMWIN.787)
+ 0000:00000000  Imp  WinRemovePresParam   (PMWIN.940)
+ 0000:00000000  Imp  WinDefDlgProc        (PMWIN.910)
+ 0000:00000000  Imp  DosSearchPath        (DOSCALLS.228)
+ 0000:00000000  Imp  DosGiveSharedMem     (DOSCALLS.303)
+ 0000:00000000  Imp  WinIsChild           (PMWIN.768)
+ 0000:00000000  Imp  WinMessageBox        (PMWIN.789)
+ 0000:00000000  Imp  WinFileDlg           (PMCTLS.4)
+ 0000:00000000  Imp  DosQueryDBCSEnv      (NLS.6)
+ 0000:00000000  Imp  WinQueryAnchorBlock  (PMWIN.800)
+ 0000:00000000  Imp  DrgQueryStrNameLen   (PMDRAG.50)
+ 0000:00000000  Imp  WinDismissDlg        (PMWIN.729)
+ 0000:00000000  Imp  WinGetSysBitmap      (PMWIN.760)
+ 0000:00000000  Imp  WinQueryDlgItemTextLength (PMWIN.816)
+ 0000:00000000  Imp  WinInitialize        (PMWIN.763)
+ 0000:00000000  Imp  GpiSetPattern        (PMGPI.541)
+ 0000:00000000  Imp  DosWaitThread        (DOSCALLS.349)
+ 0000:00000000  Imp  WinDrawBorder        (PMWIN.731)
+ 0000:00000000  Imp  DOSRELEASEMUTEXSEM   (DOSCALLS.335)
+ 0000:00000000  Imp  DosSetFilePtr        (DOSCALLS.256)
+ 0000:00000000  Imp  GpiMove              (PMGPI.404)
+ 0000:00000000  Imp  WinStartTimer        (PMWIN.884)
+ 0000:00000000  Imp  DrgQueryStrName      (PMDRAG.49)
+ 0000:00000000  Imp  WinDrawBitmap        (PMWIN.730)
+ 0000:00000000  Imp  WinShowWindow        (PMWIN.883)
+ 0000:00000000  Imp  DrgAllocDragtransfer (PMDRAG.35)
+ 0000:00000000  Imp  DrgVerifyType        (PMDRAG.61)
+ 0000:00000000  Imp  WinSetDlgItemShort   (PMWIN.858)
+ 0000:00000000  Imp  WinLoadDlg           (PMWIN.924)
+ 0000:00000000  Imp  DosGetInfoBlocks     (DOSCALLS.312)
+ 0000:00000000  Imp  DOS32TRUEGETMESSAGE  (MSG.6)
+ 0000:00000000  Imp  DrgFreeDragtransfer  (PMDRAG.40)
+ 0000:00000000  Imp  PrfCloseProfile      (PMSHAPI.103)
+ 0000:00000000  Imp  GpiEndArea           (PMGPI.385)
+ 0000:00000000  Imp  WinSetActiveWindow   (PMWIN.851)
+ 0000:00000000  Imp  DosQueryHType        (DOSCALLS.224)
+ 0000:00000000  Imp  DrgSetDragitem       (PMDRAG.57)
+ 0000:00000000  Imp  WinWindowFromPoint   (PMWIN.900)
+ 0000:00000000  Imp  DosSubAllocMem       (DOSCALLS.345)
+ 0000:00000000  Imp  WinCreateWindow      (PMWIN.909)
+ 0000:00000000  Imp  GpiBox               (PMGPI.356)
+ 0000:00000000  Imp  GpiSetBitmapBits     (PMGPI.602)
+ 0000:00000000  Imp  DosOpen              (DOSCALLS.273)
+ 0000:00000000  Imp  WinQueryPointerPos   (PMWIN.823)
+ 0000:00000000  Imp  WinEnableWindow      (PMWIN.735)
+ 0000:00000000  Imp  WinMapWindowPoints   (PMWIN.788)
+ 0000:00000000  Imp  PrfOpenProfile       (PMSHAPI.102)
+ 0000:00000000  Imp  DosForceDelete       (DOSCALLS.110)
+ 0000:00000000  Imp  WinGetPhysKeyState   (PMWIN.758)
+ 0000:00000000  Imp  WinSetWindowUShort   (PMWIN.879)
+ 0000:00000000  Imp  DosUnsetExceptionHandler (DOSCALLS.355)
+ 0000:00000000  Imp  DosSetSignalExceptionFocus (DOSCALLS.378)
+ 0000:00000000  Imp  WinQueryWindowRect   (PMWIN.840)
+ 0000:00000000  Imp  WinDispatchMsg       (PMWIN.912)
+ 0000:00000000  Imp  DosSetRelMaxFH       (DOSCALLS.382)
+ 0000:00000000  Imp  GpiQueryDevice       (PMGPI.444)
+ 0000:00000000  Imp  GpiQueryBitmapInfoHeader (PMGPI.601)
+ 0000:00000000  Imp  DosUnwindException   (DOSCALLS.357)
+ 0000:00000000  Imp  WinWindowFromID      (PMWIN.899)
+ 0000:00000000  Imp  DosSetFileSize       (DOSCALLS.272)
+ 0000:00000000  Imp  DrgAllocDraginfo     (PMDRAG.34)
+ 0000:00000000  Imp  DosExit              (DOSCALLS.234)
+ 0000:00000000  Imp  DrgGetPS             (PMDRAG.41)
+ 0000:00000000  Imp  WinCalcFrameRect     (PMWIN.704)
+ 0000:00000000  Imp  WinIsWindowShowing   (PMWIN.774)
+ 0000:00000000  Imp  WinGetKeyState       (PMWIN.752)
+ 0000:00000000  Imp  WinGetPS             (PMWIN.757)
+ 0000:00000000  Imp  GpiDeleteBitmap      (PMGPI.371)
+ 0000:00000000  Imp  DosCreateThread      (DOSCALLS.311)
+ 0000:00000000  Imp  DrgAddStrHandle      (PMDRAG.33)
+ 0000:00000000  Imp  WinQueryWindow       (PMWIN.834)
+ 0000:00000000  Imp  DosSubUnsetMem       (DOSCALLS.347)
+ 0000:00000000  Imp  DevOpenDC            (PMGPI.610)
+ 0000:00000000  Imp  DrgFreeDraginfo      (PMDRAG.39)
+ 0000:00000000  Imp  GpiQueryBitmapParameters (PMGPI.573)
+ 0000:00000000  Imp  WinDlgBox            (PMWIN.923)
+ 0000:00000000  Imp  GpiCreateBitmap      (PMGPI.598)
+ 0000:00000000  Imp  WinDestroyMsgQueue   (PMWIN.726)
+ 0000:00000000  Imp  DosQueryCurrentDir   (DOSCALLS.274)
+ 0000:00000000  Imp  DOSREQUESTMUTEXSEM   (DOSCALLS.334)
+ 0001:00000000       UCMenuCreateFromResource
+ 0001:00000118       UCMenuCreateFromHMenu
+ 0001:00000200       UCMenuMakeTemplate
+ 0001:000002A8       UCMenuTemplateLen
+ 0001:00000494       UCMenuMakeTemplate2
+ 0001:00000920       UCMenuSaveTemplate
+ 0001:000009E0       UCMenuLoadTemplate
+ 0001:00000AC0       UCMenuSaveTemplateIni
+ 0001:00000B5C       UCMenuLoadTemplateIni
+ 0001:00000BF8       UCMenuSaveStyle
+ 0001:00000DA0       UCMenuLoadStyle
+ 0001:00000F38       UCMenuSaveStyleIni
+ 0001:000010C0       UCMenuLoadStyleIni
+ 0001:00001218       UCMenuNotifAll
+ 0001:00001304       UCMenuFreeMenuData
+ 0001:0000155C       UCMenuSize
+ 0001:00001710       UCMenuIdFromCoord
+ 0001:000017CC       UCMenuGetActionID
+ 0001:00001830       UCMenuGetActionID2
+ 0001:000019B0       UCMenuSetActionAttr
+ 0001:00001A34       UCMenuContextMenu
+ 0001:00001D00       UCMenuCreateBubbleWindow
+ 0001:00001D98       UCMenuReloadAllBitmaps
+ 0001:00001E70       UCMenuSettingsDlgProc
+ 0001:00002490       UCMenuNBP1DlgProc
+ 0001:00002CC4       UCMenuNBP1Initialize
+ 0001:00003100       UCMenuNBP2DlgProc
+ 0001:00003614       UCMenuNBP2Initialize
+ 0001:00003738       UCMenuNBP0DlgProc
+ 0001:00003890       UCMenuNBP0Initialize
+ 0001:0000392C       UCMenuNBP1OK
+ 0001:00003CFC       UCMenuNBP2OK
+ 0001:00003E8C       UCMenuStyleDlgProc
+ 0001:0000432C       UCMenuDisplayHelp
+ 0001:00004454       InitializeStyleDlg
+ 0001:00004A10       UCMenuStyleDlgOK
+ 0001:00004CD0       UCMenuUpdateMenu
+ 0001:0000500C       UCMenuUnselectAll
+ 0001:00005030       UCMenuGetNewID
+ 0001:000051F4       UCMenuNBP0OK
+ 0001:00005644       UCMenuExecuteProgram
+ 0001:00005704       UCMenuEditBmpFileT2
+ 0001:00005958       UCMenuEditBmpFile
+ 0001:00005AC4       UCMenuCreateBmpFile
+ 0001:00005E20       UCMenuNBP1UpdateBmp
+ 0001:00005EB8       UCMenuLoadDefault
+ 0001:0000601C       UCMenuNew
+ 0001:000060EC       UCMenuReplaceMenu
+ 0001:00006204       UCMenuInitDrag
+ 0001:000066C0       UCMenuRemoveDropEmphasis
+ 0001:00006800       UCMenuDragOver
+ 0001:00006C6C       UCMenuDrop
+ 0001:000076C4       UCMenuPresParamChanged
+ 0001:000077F8       UCMenuGetExePath
+ 0001:000078B4       TranslateAccel
+ 0001:000078F8       AddAccelItem
+ 0001:000079CC       RemoveAccelItem
+ 0001:00007AD4       BitmapFileDlgProc
+ 0001:00007C00       UCMenuCreateBmpDlgProc
+ 0001:00007E74       ResBmpDlgProc
+ 0001:00008304       UCMDlgProc
+ 0001:00008E9C       ShredderWndProc
+ 0001:000091BC       UCMenuResourceBuffetDlg
+ 0001:00009268       UCMenuTemplateBuffetDlg
+ 0001:00009314       UCMenuGetVersion
+ 0001:00009324       UCMenuLoadResBmp
+ 0001:000095D8       SubMemStrdup
+ 0001:0000963C       UCMenuAlloc
+ 0001:00009654       UCMenuStrdup
+ 0001:0000966C       UCMenuItemFree
+ 0001:000096F0       UCMenuItemDup
+ 0001:000097D0       UCMenuFree
+ 0001:000097E4       MyStrdup
+ 0001:0000980C       nlsgetmessage
+ 0001:0000985C       UCMString2Int
+ 0001:00009990       _DLL_InitTerm
+ 0001:000099D8       _test_handle
+ 0001:00009A28       _CRT_init
+ 0001:00009DB8       _setupenv
+ 0001:00009E98       __ctordtorTerm
+ 0001:00009ED0       __ctordtorInit
+ 0001:00009FB4       _CRT_term
+ 0001:0000A1A4       _split_chunk
+ 0001:0000A29C       __malloc
+ 0001:0000A514       malloc
+ 0001:0000A5C0       __free
+ 0001:0000A67C       free
+ 0001:0000A70C       _Weak_FreeListEntry
+ 0001:0000A808       _heapmin_int
+ 0001:0000AAF0       _heapmin
+ 0001:0000ABA4       calloc
+ 0001:0000AC80       _terminate
+ 0001:0000ACA0       _EXE_Exception
+ 0001:0000ACE4       _recreate_exception
+ 0001:0000AE48       _Lib_excpt
+ 0001:0000AFB4       __Exception
+ 0001:0000B3C0       _exception_dllinit
+ 0001:0000B3F0       _exception_procinit
+ 0001:0000B424       _get_eib
+ 0001:0000B480       _mig_eib_store
+ 0001:0000B490       __Saved_return_address
+ 0001:0000B4A0       __Async_exception_flag
+ 0001:0000B4BC       _input_excpt
+ 0001:0000B524       _critlib_except
+ 0001:0000B66C       _w_Terminate_and_dump
+ 0001:0000B6E8       _fpreset
+ 0001:0000B6F8       _fcloseall_weak
+ 0001:0000B70C       _freeLocale_weak
+ 0001:0000B710       _init_ctype_weak
+ 0001:0000B714       _freeCtype_weak
+ 0001:0000B718       _Exception
+ 0001:0000B730       _Test_and_reset
+ 0001:0000B73C       _callback_opt_sys
+ 0001:0000B748       _Regen_exception
+ 0001:0000B754       _get_seglim
+ 0001:0000B790       _FreeFCB
+ 0001:0000B86C       _CrtGetLocalData
+ 0001:0000BAE0       _CrtInitThread
+ 0001:0000BB20       _beginthread
+ 0001:0000BB94       _endthread
+ 0001:0000BD34       _CreateSem
+ 0001:0000BDA0       _CloseSem
+ 0001:0000BDF4       _RequestSem
+ 0001:0000BE84       _ReleaseSem
+ 0001:0000BEA0       __threadid
+ 0001:0000BECC       __random_seed
+ 0001:0000BEDC       __version
+ 0001:0000BEE8       __strtok_pos
+ 0001:0000BEF8       __tempname_ptr
+ 0001:0000BF08       __perror_msg_ptr
+ 0001:0000BF18       __internal_buf_ptr
+ 0001:0000BF28       __lcvt_buf_ptr
+ 0001:0000BF38       __cvt_buf_ptr
+ 0001:0000BF48       __broken_time_ptr
+ 0001:0000BF58       __flags
+ 0001:0000BF68       __strerror_msg_ptr
+ 0001:0000BF78       __dttm_ptr
+ 0001:0000BF88       __doserrno
+ 0001:0000BF98       _errno
+ 0001:0000BFA8       __cppstore
+ 0001:0000BFC4       _edcGetMessage
+ 0001:0000BFE8       _PrintErrMsg
+ 0001:0000C03C       _MesgServ
+ 0001:0000C240       strstr
+ 0001:0000C298       strtok
+ 0001:0000C318       strupr
+ 0001:0000C36C       strcspn
+ 0001:0000C3A8       strdup
+ 0001:0000C414       strpbrk
+ 0001:0000C44C       strspn
+ 0001:0000C488       strtol
+ 0001:0000C5B8       strtoul
+ 0001:0000C6B4       _freeCtype
+ 0001:0000C6D0       _init_ctype
+ 0001:0000C7C0       _asciitld
+ 0001:0000C8A4       _asciitod
+ 0001:0000C968       _strtodieee
+ 0001:0000C998       strtod
+ 0001:0000C9C8       _atofieee
+ 0001:0000CEA0       atof
+ 0001:0000CEC8       strnicmp
+ 0001:0000CF74       strtold
+ 0001:0000D454       _atold
+ 0001:0000D478       abs
+ 0001:0000D9D8       __dofmto
+ 0001:0000E48C       _wfloatfmt
+ 0001:0000E4B4       _wungetch
+ 0001:0000E4BC       _wgetche
+ 0001:0000E4D0       _wcputs
+ 0001:0000E4E4       _fprintfieee
+ 0001:0000E524       _fprintf_ansi
+ 0001:0000E554       _sprintfieee
+ 0001:0000E590       _sprintf_ansi
+ 0001:0000E5BC       wctomb
+ 0001:0000E690       _bufprint
+ 0001:00010204       __goscan
+ 0001:000104D4       _sscanfieee
+ 0001:000104F4       _sscanf_ansi
+ 0001:00010520       _CloseStream
+ 0001:000107A4       _wuwriteMem
+ 0001:000107A8       _wreadbSyncMem
+ 0001:000107AC       _wfsetposMem
+ 0001:000107B4       _wSeekMem
+ 0001:000107BC       _wfgetposMem
+ 0001:000107D0       _wrewindMem
+ 0001:000107D4       _wtellMem
+ 0001:000107E8       _wRemoveMem
+ 0001:000107EC       _wOpenMemory
+ 0001:000107F4       fopen
+ 0001:00010900       _Fmprs
+ 0001:00010EA8       _InitBuf
+ 0001:00010F24       _InitFCB
+ 0001:000110F0       _convert
+ 0001:00011310       _fcloseall
+ 0001:00011408       fclose
+ 0001:00011510       fflush
+ 0001:0001166C       _fillb
+ 0001:000118B4       _Flush
+ 0001:00011A6C       _flushb
+ 0001:00011FB4       fread
+ 0001:000124F8       fseek
+ 0001:000127DC       fwrite
+ 0001:00012A4C       _getcx
+ 0001:00012BFC       getenv
+ 0001:00012D8C       _ilog2
+ 0001:00012D94       _internal_err
+ 0001:00012DE8       longjmp
+ 0001:00012E4C       _ltoa
+ 0001:00012EF0       _noddprs
+ 0001:0001335C       _OpenStream
+ 0001:00013604       _w_raise
+ 0001:0001360C       setjmp
+ 0001:00013648       _readbSync
+ 0001:000138C0       _ungetc
+ 0001:00013970       _uwrite
+ 0001:000139B4       _set_crt_msg_handle
+ 0001:000139E8       _CheckIfMem
+ 0001:00013A3C       _fullpath
+ 0001:00013C00       _freeThreadStorage
+ 0001:00013CA4       _bit_test_set
+ 0001:00013CB8       mbtowc
+ 0001:00013DF4       wcstombs
+ 0001:00013F58       _toint
+ 0001:00014130       strcat
+ 0001:00014174       strchr
+ 0001:000141A4       strcmp
+ 0001:000141D0       strcpy
+ 0001:0001420C       strncat
+ 0001:00014254       strlen
+ 0001:00014278       strncpy
+ 0001:000142BC       strrchr
+ 0001:000142EC       memset
+ 0001:00014328       memcpy
+ 0001:00014358       _XDosRead
+ 0001:00014400       _Math_Exception_Def
+ 0001:00014414       _matherr
+ 0001:00014428       UCMenuSetBmpBgColor
+ 0001:0001475C       UCMenu3DFrame
+ 0001:000147A4       UCMenuCalcItemSize
+ 0001:0001486C       UCMenuCalcUnscaledItemSize
+ 0001:00014970       UCMenuCalcBmpPos
+ 0001:00014B84       UCMenuCalcTextSize
+ 0001:00014C4C       CreateUCMenu
+ 0001:00015284       UCMenuCheckScrolling
+ 0001:000156DC       UCAdjacentItemBlank
+ 0001:00015778       UCMenuWndProc
+ 0001:00018760       HideWndProc
+ 0001:00018EFC       SubmenuWndProc
+ 0001:0001939C       BubbleWndProc
+ 0001:00019EAC       MenuWndProc
+ 0001:0001A7F4       UCMenuDrgDrpMsg
+ 0001:0001AE34       GetMaxItemSize
+ 0001:0001AFAC       UCMenuCreateFromTemplate
+ 0001:0001B0DC       UCMenuCreate
+ 0001:0001B148       UCMenuLoadBitmap
+ 0001:0001B868       UCMenuSelectColor
+ 0001:0001B8AC       UCMenuLoadMenuData
+ 0001:0001C028       UCMenuLoadItemBmp
+ 0001:0001C2A0       UCMenuGetBitmapPath
+ 0001:0001C600       UCMenuGetBitmapFullName
+ 0001:0001C6C0       sig32
+ 0001:0001C6D2       DosGetMessage
+ 0001:0001C6D2       DOSGETMESSAGE
+ 0001:0001C6D2       Dos32GetMessage
+ 0001:0001C6D2       DOS32GETMESSAGE
+ 0002:00000350       _dllentry
+ 0002:00000360       stdin
+ 0002:00000364       stdout
+ 0002:00000368       stderr
+ 0002:0000036C       _PGLOBAL_PTR
+ 0002:00000370       _daylight
+ 0002:00000374       _timezone
+ 0002:00000378       _osmode
+ 0002:0000037C       __decimal_point
+ 0002:00000380       __char_set_type
+ 0002:00000620       __ctdtused
+ 0002:000006A0       _matherr_ptr
+ 0002:00000840       _ctable
+ 0002:00000944       _ctypeModule
+ 0002:000009C0       _fopenused
+ 0002:00000A90       _crt_msg_handle
+ 0002:00000AB0       __ctordtorStart
+ 0002:00000AB0       __ctordtorEnd
+ 0002:00000B70       _infinity
+ 0002:00000B78       _DBL_MIN
+ 0002:00000B80       _DBL_MAX
+ 0002:00000B88       _HUGE_VAL
+ 0002:00000B90       _dposqnan
+ 0002:00000B98       _dpossnan
+ 0002:00000BA0       _dposinfi
+ 0002:00000BA8       _dnegqnan
+ 0002:00000BB0       _dnegsnan
+ 0002:00000BB8       _dneginfi
+ 0002:00000BC0       _fposqnan
+ 0002:00000BC4       _fpossnan
+ 0002:00000BC8       _fposinfi
+ 0002:00000BCC       _fnegqnan
+ 0002:00000BD0       _fnegsnan
+ 0002:00000BD4       _fneginfi
+ 0002:00000BD8       _LDBL_MIN
+ 0002:00000BE2       _LDBL_MAX
+ 0002:00000BEC       _LHUGE_VAL
+ 0002:00000BF6       _ldposqnan
+ 0002:00000C00       _ldpossnan
+ 0002:00000C0A       _ldposinfi
+ 0002:00000C14       _ldnegqnan
+ 0002:00000C1E       _ldnegsnan
+ 0002:00000C28       _ldneginfi
+ 0002:00000C38       _pospow1
+ 0002:00000EB8       _pospow2
+ 0002:00001300       _firsteib
+ 0002:0000175C       _lasteib
+ 0002:00001760       @BSSGOSCAN.C
+ 0002:00001760       _edata
+ 0002:00001770       @BSSATOLD.C
+ 0002:00001790       _have_freed
+ 0002:00001794       _pBucketArr
+ 0002:000017D4       _edcinit_fin
+ 0002:000017D8       _memory_sem
+ 0002:000017E4       @BSSEDCINIT.C
+ 0002:000017F4       _tmemory_sem
+ 0002:00001800       @BSSPRTEMSG.C
+ 0002:00001804       @BSSN_EXCEPT.C
+ 0002:00001810       @BSSFULLPATH.C
+ 0002:00001914       __c_local_ctype
+ 0002:00001918       _ctype
+ 0002:0000191C       @BSSH:\SOURCE\UCMV210\SOURCE\UCMENUS.C
+ 0002:00001F1C       __ctordtorCurrent
+ 0002:00001F20       _tzname
+ 0002:00001F28       _environ
+ 0002:00001F2C       _osmajor
+ 0002:00001F2D       _osminor
+ 0002:00001F30       @BSSATOF.C
+ 0002:00001F40       _locale_initialized
+ 0002:00001F44       _TerminateAndDumpSem
+ 0002:00001F50       _end
+
+Program entry point at 0001:00009990
